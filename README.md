@@ -1,39 +1,21 @@
 # Website Template Using Sass Bootstrap 5
+
  Developed Website Template Using Sass Bootstrap 5
 
- # Error web templates using Sass Bootstrap 4
 
-Create error pages (404,401,403,404,500,503) Website Templates usign Sass
-Bootstrap 4
-
-<code>asdasdasdasd</code>
 <br>
 <br>
 
-**assets/**<br>
-|<br>
-|– _fontawesome_<br>
-|– _animate.css_<br>
-|– _bootstrap_<br>
-|– _jquery_<br>
-|<br>
 **css/**<br>
-|<br>
-|– _plugin.css_<br>
-|<br>
-**sass/**<br>
-|<br>
-|– _main.css_<br>
-|– _main.scss_<br>
-|– _main.css.map_<br>
-|– _main.min.css_<br>
-|<br>
-**error-401.html**<br>
-**error-403.html**<br>
-**error-404.html**<br>
-**error-500.html**<br>
-**error-503.html**<br>
-**index.html**<br><br>
+|– main.css <br>
+| <br>
+**images/**<br>
+|– body-background.jpg <br>
+| <br>
+**node_modules/**<br>
+|– @fortawesome <br>
+&nbsp;<code>npm install --save @fortawesome/fontawesome-free</code>
+| <br>
 
 ### Support or Contact
 
