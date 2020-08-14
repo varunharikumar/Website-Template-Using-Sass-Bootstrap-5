@@ -14,8 +14,8 @@
 | <br>
 **node_modules/**<br>
 |– @fortawesome <br>
-<code>
-npm install --save @fortawesome/fontawesome-free<br>
+&nbsp;&nbsp;&nbsp;&nbsp; <code>
+npm install --save @fortawesome/fontawesome-free <br>
 https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers
 </code><br>
 | <br>
