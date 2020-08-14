@@ -14,15 +14,9 @@
 | <br>
 **node_modules/**<br>
 |– @fortawesome <br>
-&nbsp;&nbsp;&nbsp;
 <code>
-npm install --save @fortawesome/fontawesome-free <br>
-
-## Add below files inside main.scss 
-@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
-@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
-
+npm install --save @fortawesome/fontawesome-free<br>
+https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers
 </code><br>
 | <br>
 
