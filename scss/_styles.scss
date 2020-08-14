@@ -1,0 +1,199 @@
+/************ _styles SCSS **************************************
+
+Template Name: Varun Harikumar - Coming Soon Website Template Using Sass Bootstrap 5
+Author: Varun Harikumar
+Author Profile: https://www.varunharikumar.com    
+Support Email: hello@varunharikumar.com
+
+****************************************************************/
+
+@import "variables";
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: map-get($font-family, raleway);
+  color: $secondary;
+  font-size: map-get($font-size, font-14);
+}
+
+.bg-image {
+  background-image: url(../images/body-background.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+}
+
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: $secondary;
+      font-size: map-get($font-size, font-18);
+      padding: 0 map-get($size, size-15);
+      &.active {
+        color: $primary;
+        font-weight: 600;
+      }
+      &:hover,
+      &:focus {
+        color: $primary;
+      }
+    }
+    @include media-breakpoint-between(xs, sm) {
+      .nav-link {
+        padding-top: map-get($size, size-5);
+        padding-bottom: map-get($size, size-5);
+      }
+    }
+  }
+}
+
+.center-content {
+  h1,
+  h2,
+  p,
+  .btn {
+    margin-bottom: map-get($size, size-30);
+  }
+  h1,
+  h2 {
+    color: $primary;
+    font-family: map-get($font-family, anton);
+  }
+  h1 {
+    font-size: map-get($font-size, font-80);
+  }
+  h2 {
+    font-size: map-get($font-size, font-50);
+  }
+  @include media-breakpoint-between(xs, sm) {
+    h1 {
+      font-size: map-get($font-size, font-40);
+    }
+  }
+  p {
+    font-size: map-get($font-size, font-18);
+    line-height: map-get($size, size-30);
+  }
+  @include media-breakpoint-between(xs, sm) {
+    p {
+      font-size: map-get($font-size, font-14);
+      line-height: map-get($size, size-22);
+    }
+  }
+  .btn-primary {
+    background: $primary;
+    border-color: $primary;
+    border-radius: 5px;
+    font-size: map-get($font-size, font-16);
+    text-transform: uppercase;
+    padding: map-get($size, size-15) map-get($size, size-30);
+    font-weight: 600;
+    transform: perspective(1px) translateZ(0);
+    transition-property: color;
+    transition-duration: 0.3s;
+
+    &:before {
+      content: "";
+      border-radius: 5px;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: $secondary;
+      transform: scaleX(0);
+      transform-origin: 0 50%;
+      transition-property: transform;
+      transition-duration: 0.3s;
+      transition-timing-function: ease-out;
+    }
+    &:hover {
+      color: $primary;
+      &:before {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+    }
+  }
+  @include media-breakpoint-between(xs, sm) {
+    .btn-primary {
+      padding: map-get($size, size-10) map-get($size, size-20);
+      font-size: map-get($font-size, font-14);
+    }
+  }
+
+  span {
+    &.social-icons {
+      a {
+        text-decoration: none;
+        font-size: map-get($font-size, font-16);
+        color: $primary;
+        border: 1px dashed $primary;
+        border-radius: 50%;
+        padding: map-get($size, size-10);
+        width: map-get($size, size-40);
+        height: map-get($size, size-40);
+        margin: 0 map-get($size, size-5);
+        transition: background-color 0.5s ease;
+        &:hover {
+          color: $primary;
+          background-color: $secondary;
+        }
+      }
+    }
+  }
+}
+
+/*responsive menu*/
+.navbar-light {
+  .navbar-toggler {
+    border-color: $primary;
+    border-style: dashed;
+    color: $primary;
+    span {
+      font-size: map-get($font-size, font-24);
+    }
+  }
+  @include media-breakpoint-between(xs, sm) {
+    .navbar-collapse {
+      background: rgba($black, $alpha: 0.5);
+      border: 1px dashed $primary;
+      margin-top: 15px;
+    }
+  }
+  @include media-breakpoint-only(md) {
+    .navbar-collapse {
+      background: rgba($black, $alpha: 0.5);
+      border: 1px dashed $primary;
+      margin-top: 15px;
+    }
+  }
+}
+
+.contact-me {
+  .form-control {
+    background: none;
+    border-radius: 0;
+    padding: map-get($size, size-10);
+    border-color: $primary;
+    border-style: dashed;
+    color: $secondary;
+  }
+}
