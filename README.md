@@ -23,6 +23,11 @@ $ npm install --save @fortawesome/fontawesome-free</code> <br>
 $ npm install animate.css --save</code> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;https://animate.style/#usage
 <br>
+|– bootstrap <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<code>
+$ npm install bootstrap@next --save</code> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;https://v5.getbootstrap.com/docs/5.0/getting-started/download/#npm
+<br>
 
 ### Support or Contact
 
