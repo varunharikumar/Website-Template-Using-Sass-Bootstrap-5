@@ -14,11 +14,15 @@
 | <br>
 **node_modules/**<br>
 |– @fortawesome <br>
-&nbsp;&nbsp;&nbsp;&nbsp; <code>
-npm install --save @fortawesome/fontawesome-free</code> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<code>
+$ npm install --save @fortawesome/fontawesome-free</code> <br>
 &nbsp;&nbsp;&nbsp;&nbsp;https://fontawesome.com/how-to-use/on-the-web/setup/using-package-managers
 <br>
-| <br>
+|– animate.css <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<code>
+$ npm install animate.css --save</code> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;https://animate.style/#usage
+<br>
 
 ### Support or Contact
 
